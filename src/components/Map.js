@@ -39,7 +39,7 @@ const markers = eventData.map(ev=>
     return (
         <div className="map">
             <GoogleMapReact 
-            bootstrapURLKeys={{key:'AIzaSyCMps8NwHOpGhixKl3B7gsUWWigHK9OyIM'}}
+            bootstrapURLKeys={{key:`${process.env.REACT_APP_GOOGLE_MAPS_API_KEY}`}}
             defaultCenter={center}
             defaultZoom={zoom} 
             >

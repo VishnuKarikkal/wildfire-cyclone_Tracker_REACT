@@ -8,6 +8,7 @@
 # testing
 /coverage
 
+
 # production
 /build
 
@@ -17,6 +18,8 @@
 .env.development.local
 .env.test.local
 .env.production.local
+
+.env.REACT_APP_GOOGLE_MAPS_API_KEY
 
 npm-debug.log*
 yarn-debug.log*
